@@ -64,9 +64,13 @@ async function displayProducts() {
     const description = document.createElement('p');
     description.textContent = Description;
       
-    productCard.appendChild(name);
-    productCard.appendChild(image);
-    productCard.appendChild(description);
+    const itemDiv = document.createElement("div");
+             <div class="col-md-6 col-lg-4" id="cat-box">
+                        <div class="card border-0" style="background: rgba(255,255,255,0);"><a></a>
+                            <div class="card-body cat-card-body"><a id="cat-name"><strong>אוטומציה ובקרה</strong></a></div>
+                        </div><img class="imageicon" src="assets/img/i4.png"><a class="btn btn-primary btn-sm" role="button" id="link_button" href="https://dukehootfish.github.io/catalog/catalogfish.html#c3">לרשימת הספקים &gt;</a>
+                    </div>
+            `;
 
     productContainer.appendChild(productCard);
   });
