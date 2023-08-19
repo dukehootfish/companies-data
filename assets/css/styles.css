@@ -28,7 +28,7 @@
 #cat-name {
     color: black;
     word-wrap: normal;
-}
+}/*
 #cat-box:first-child {
   position: relative;
   width: 100%; /* Adjust as needed */
@@ -60,7 +60,7 @@
   position: absolute;
   top: 10px; /* Adjust as needed */
   right: 10px; /* Adjust as needed */
-}
+}*/
 
 .card-body {
     min-height: 47px;
