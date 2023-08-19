@@ -73,7 +73,7 @@ async function displayProducts() {
             `;
 
     productContainer.appendChild(itemDiv);
-  });
+  };
 }
 
 displayProducts();
