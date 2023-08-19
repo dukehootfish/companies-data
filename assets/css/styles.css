@@ -28,6 +28,7 @@
 #cat-name {
     color: black;
     word-wrap: normal;
+    positio: absolute;
 }
 
 .card-body {
