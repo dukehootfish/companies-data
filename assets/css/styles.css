@@ -1,162 +1,3 @@
-/* Reset some default styles */
-body, h1, h2, ul {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Lato, sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: center;
-  background-color: #ffffff;
-  direction: rtl;
-  overflow-y: hidden;
-}
-
-header {
-  background-color: #333;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-#product-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
-.col-md-6 {
-  width: calc(50% - 20px);
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-.col-lg-4 {
-  width: calc(33.33% - 20px);
-}
-
-#cat-box {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(255, 255, 255, 1);
-  border-width: 0px;
-  transition: transform .2s;
-  padding: 3px 3px 0 2px;
-  box-shadow: 0px 0px 7px rgba(33, 37, 41, 0.22);
-  border-radius: 8px;
-  border: 2px solid rgb(217, 217, 217);
-  margin: 1%;
-}
-
-.card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-color: rgba(255, 255, 255, 0);
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
-}
-
-.cat-card-body {
-  min-height: 47px;
-  padding: 0;
-  font-family: 'Heebo';
-  padding-top: 3px;
-}
-
-#cat-name {
-  color: black;
-  word-wrap: normal;
-  font-size: 55%;
-}
-
-#title {
-  color: black;
-  word-wrap: normal;
-  font-size: 75%;
-  line-height: 1;
-  position: absolute;
-  top: 107px;
-  right: 0;
-}
-
-@media (min-width: 992px) {
-  #title {
-    top: 140px;
-  }
-}
-
-@media (min-width: 768px) {
-  #title {
-    top: 151px;
-  }
-}
-
-#link_button {
-  height: 31px;
-  width: 95%;
-  background: rgb(4, 94, 153);
-  font-family: Heebo, sans-serif;
-  border: none;
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
-  padding-left: 15px;
-}
-
-@media (min-width: 300px) {
-  #link_button {
-    padding-left: 9px;
-  }
-}
-
-@media (min-width: 568px) {
-  #cat-name-long {
-    color: black;
-  }
-}
-
-#catalog {
-  width: 100%;
-  overflow: hidden;
-  scroll-margin-top: 113px;
-}
-
-#blink2 {
-  background-color: black;
-  font-weight: bold;
-}
-
-/* Additional styles provided by the user */
-
 .portfolio-block {
   padding-bottom: 0;
   padding-top: 0;
@@ -234,14 +75,55 @@ a img {
   transition: .5s ease;
 }
 
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  padding: 0 1% 0 0;
+}
+
+body {
+  margin: 0;
+  font-family: Lato,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  background-color: #ffffff;
+  direction: rtl;
+  overflow-y: hidden;
+}
+
 #page_name {
   font-size: 200%;
   margin-top: 27px;
 }
 
+#link_button {
+  height: 31px;
+  width: 95%;
+  background: rgb(4,94,153);
+  font-family: Heebo, sans-serif;
+  border: none;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  padding-left: 15px;
+}
+
+@media (min-width: 300px) {
+  #link_button {
+    padding-left: 9px;
+  }
+}
+
 #link_button2 {
   height: 31px;
-  background: rgb(4, 94, 153);
+  background: rgb(4,94,153);
   font-family: Heebo, sans-serif;
   border: none;
   z-index: 10;
@@ -256,7 +138,7 @@ a img {
 @media (min-width: 1200px) {
   #link_button2 {
     height: 31px;
-    background: rgb(4, 94, 153);
+    background: rgb(4,94,153);
     font-family: Heebo, sans-serif;
     border: none;
     z-index: 10;
@@ -268,7 +150,7 @@ a img {
 
 #link_button1 {
   height: 31px;
-  background: rgb(13, 154, 28);
+  background: rgb(13,154,28);
   font-family: Heebo, sans-serif;
   border: none;
   z-index: 10;
@@ -286,7 +168,7 @@ a img {
   bottom: 5px;
   left: 2%;
   width: 96%;
-  background: rgb(13, 154, 28);
+  background: rgb(13,154,28);
   font-family: Heebo, sans-serif;
   border: none;
 }
@@ -297,7 +179,7 @@ a img {
   bottom: 6px;
   left: 2%;
   width: 96%;
-  background: rgb(13, 154, 28);
+  background: rgb(13,154,28);
   font-family: Heebo, sans-serif;
   border: none;
 }
@@ -311,9 +193,9 @@ a img {
     line-height: 1;
     padding-bottom: 10px;
     padding-top: 10px;
-    box-shadow: 0px 0px 7px rgba(33, 37, 41, 0.22);
+    box-shadow: 0px 0px 7px rgba(33,37,41,0.22);
     border-radius: 8px;
-    border: 2px solid rgb(217, 217, 217);
+    border: 2px solid rgb(217,217,217);
   }
 }
 
@@ -352,7 +234,7 @@ a img {
 }
 
 #cat-box {
-  background: rgba(255, 255, 255, 1);
+  background: rgba(255,255,255,1);
   border-width: 0px;
   transition: transform .2s;
   padding: 3px 3px 0 2px;
@@ -367,9 +249,9 @@ a img {
     line-height: 1;
     padding-bottom: 10px;
     padding-top: 10px;
-    box-shadow: 0px 0px 7px rgba(33, 37, 41, 0.22);
+    box-shadow: 0px 0px 7px rgba(33,37,41,0.22);
     border-radius: 8px;
-    border: 2px solid rgb(217, 217, 217);
+    border: 2px solid rgb(217,217,217);
   }
 }
 
@@ -401,7 +283,7 @@ a img {
 }
 
 #box {
-  background: rgba(255, 255, 255, 1);
+  background: rgba(255,255,255,1);
   border-width: 0px;
   transition: transform .2s;
   padding: 3px 3px 0 2px;
@@ -410,12 +292,12 @@ a img {
 #box:hover {
   transition: .5s ease;
   transform: scale(1.05);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.57);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.57);
 }
 
 #pagetitle {
   height: 55px;
-  background: rgb(255, 255, 255);
+  background: rgb(255,255,255);
   border-radius: 12px;
   width: 98%;
   margin: 59px 4px 10px 0px;
@@ -429,7 +311,7 @@ a img {
   max-width: 8.33333%;
 }
 
-@media (min-width: 768px) {
+@media (min-width:768px) {
   .col-md-6 {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
@@ -449,7 +331,7 @@ a img {
 #menudiv {
   width: 100%;
   display: none;
-  background: rgb(255, 255, 255);
+  background: rgb(255,255,255);
   height: 82px;
   position: fixed;
   z-index: 3;
@@ -465,1464 +347,311 @@ a img {
     position: fixed;
     top: -1px;
     right: 0;
-    width: 35%;
-    background-color: rgb(255, 255, 255);
     box-shadow: 0px 2px 14px;
   }
 }
 
-@media (min-width: 1000px) {
-  #menudiv {
-    display: none;
-    height: 140px;
-    position: fixed;
-    top: -1px;
-    right: 0;
-    width: 26%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-@media (min-width: 1200px) {
-  #menudiv {
-    display: none;
-    height: 155px;
-    position: fixed;
-    top: -1px;
-    right: 0;
-    width: 25%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-@media (min-width: 568px) {
-  #menudiv {
-    display: none;
-    height: 118px;
-    position: fixed;
-    top: -1px;
-    right: 0;
-    width: 25%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-#topright {
-  float: right;
-  margin-right: 5%;
-}
-
-@media (min-width: 1200px) {
-  #topright {
-    float: right;
-    margin-right: 1%;
-  }
-}
-
-@media (min-width: 1000px) {
-  #topright {
-    float: right;
-    margin-right: 2%;
-  }
-}
-
-@media (min-width: 568px) {
-  #topright {
-    float: right;
-    margin-right: 4%;
-  }
-}
-
-@media (min-width: 300px) {
-  #topright {
-    float: right;
-    margin-right: 3%;
-  }
-}
-
-#footer {
-  font-family: 'Heebo';
-  text-align: center;
-  width: 100%;
-  bottom: 0;
-  padding: 20px 0;
-  background: rgb(255, 255, 255);
-}
-
-#bottomright {
-  bottom: 2px;
+.card {
   position: absolute;
-  right: 1.5%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgba(255,255,255,0);
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
 }
 
-#bottomright a {
-  background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-  padding: 6px 12px;
+#blink {
+  font-size: 14px;
+  background: #005e9a;
   border-radius: 4px;
-  font-size: 12px;
+  /*height: 92%;*/
+  width: 100%;
+  padding: 3px 0px;
 }
 
 @media (min-width: 300px) {
-  #bottomright a {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    padding: 6px 12px;
-    border-radius: 4px;
+  #blink {
     font-size: 14px;
+    background: #005e9a;
+    border-radius: 4px;
+    height: 92%;
+    padding: 3px 0px;
   }
 }
 
-@media (min-width: 568px) {
-  #bottomright a {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    padding: 6px 12px;
-    border-radius: 4px;
-    font-size: 16px;
+#blink a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#blink a {
+  color: #fff;
+}
+
+@media (min-width: 900px) {
+  #buttoncol {
+    margin: 3px;
+    padding: 0 0px;
+    max-width: 16%;
+  }
+}
+
+.card-body {
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+@media (min-width: 576px) {
+  .card-body {
+    font-size: 27px;
+    line-height: 0.8;
   }
 }
 
 @media (min-width: 768px) {
-  #bottomright a {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    padding: 6px 12px;
-    border-radius: 4px;
-    font-size: 14px;
+  .card-body {
+    font-size: 24px;
+    line-height: 1.1;
   }
 }
 
-@media (min-width: 1000px) {
-  #bottomright a {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    padding: 6px 12px;
-    border-radius: 4px;
-    font-size: 16px;
+@media (min-width:576px) {
+  .scale-on-hover:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.0);
+    box-shadow: none !important;
   }
 }
 
-@media (min-width: 1200px) {
-  #bottomright a {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    padding: 6px 12px;
-    border-radius: 4px;
-    font-size: 16px;
+#catalog {
+  width: 100%;
+  overflow: hidden;
+  scroll-margin-top: 113px;
+}
+
+#blink:hover {
+  background: rgb(0,123,192);
+}
+
+#c1, #c2, #c4, #c5, #c6, #c7, #c8, #c9, #c10, #c11, #c12, #c13, #c14, #c15 {
+  scroll-margin-top: 100px;
+}
+
+@media (min-width: 900px) {
+  #c3 {
+    scroll-margin-top: 90px;
+    margin-top: 90px;
   }
 }
 
-@media (min-width: 568px) {
-  #product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
+@media (min-width: 900px) {
+  #menudiv {
+    display: block;
   }
 }
 
-@media (min-width: 1200px) {
-  #product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 20px;
+@media (min-width: 900px) {
+  #cat-c1 {
+    scroll-margin-top: 65px;
+    margin-top: 4px;
   }
 }
 
-@media (min-width: 992px) {
-  #product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-}
-
-@media (min-width: 768px) {
-  #product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-}
-
-#headername {
+#wa-icon {
+  padding: 0 0px 1px 0px;
   font-size: 25px;
-  line-height: 25px;
-  font-family: 'Heebo';
-  margin: 3px 0;
-  font-weight: 900;
-  word-wrap: normal;
-  color: white;
+  vertical-align: middle;
 }
 
-@media (min-width: 300px) {
-  #headername {
-    font-size: 22px;
-    line-height: 22px;
-    font-family: 'Heebo';
-    margin: 3px 0;
-    font-weight: 900;
-    word-wrap: normal;
-    color: white;
-  }
-}
-
-@media (min-width: 568px) {
-  #headername {
-    font-size: 25px;
-    line-height: 25px;
-    font-family: 'Heebo';
-    margin: 3px 0;
-    font-weight: 900;
-    word-wrap: normal;
-    color: white;
-  }
-}
-
-@media (min-width: 768px) {
-  #headername {
-    font-size: 30px;
-    line-height: 30px;
-    font-family: 'Heebo';
-    margin: 3px 0;
-    font-weight: 900;
-    word-wrap: normal;
-    color: white;
-  }
-}
-
-@media (min-width: 1000px) {
-  #headername {
-    font-size: 36px;
-    line-height: 36px;
-    font-family: 'Heebo';
-    margin: 3px 0;
-    font-weight: 900;
-    word-wrap: normal;
-    color: white;
-  }
-}
-
-@media (min-width: 1200px) {
-  #headername {
-    font-size: 40px;
-    line-height: 40px;
-    font-family: 'Heebo';
-    margin: 3px 0;
-    font-weight: 900;
-    word-wrap: normal;
-    color: white;
-  }
-}
-
-#site-name {
-  font-size: 21px;
-  font-weight: bold;
-  font-family: 'Heebo';
-  word-wrap: normal;
-}
-
-@media (min-width: 300px) {
-  #site-name {
-    font-size: 18px;
-    font-weight: bold;
-    font-family: 'Heebo';
-    word-wrap: normal;
-  }
-}
-
-@media (min-width: 568px) {
-  #site-name {
-    font-size: 21px;
-    font-weight: bold;
-    font-family: 'Heebo';
-    word-wrap: normal;
-  }
-}
-
-@media (min-width: 768px) {
-  #site-name {
-    font-size: 21px;
-    font-weight: bold;
-    font-family: 'Heebo';
-    word-wrap: normal;
-  }
-}
-
-@media (min-width: 1000px) {
-  #site-name {
-    font-size: 26px;
-    font-weight: bold;
-    font-family: 'Heebo';
-    word-wrap: normal;
-  }
-}
-
-@media (min-width: 1200px) {
-  #site-name {
-    font-size: 28px;
-    font-weight: bold;
-    font-family: 'Heebo';
-    word-wrap: normal;
-  }
-}
-
-#search-field {
-  margin-right: 4px;
-  font-size: 12px;
-  font-weight: normal;
-  font-family: 'Heebo';
-  color: rgb(33, 37, 41);
-  border: none;
-  background: none;
-  border-bottom: 2px solid rgb(33, 37, 41);
-  border-radius: 0;
-  margin-top: 1px;
-}
-
-@media (min-width: 300px) {
-  #search-field {
-    margin-right: 8px;
-    font-size: 14px;
-    font-weight: normal;
-    font-family: 'Heebo';
-    color: rgb(33, 37, 41);
-    border: none;
-    background: none;
-    border-bottom: 2px solid rgb(33, 37, 41);
-    border-radius: 0;
-    margin-top: 1px;
-  }
-}
-
-@media (min-width: 568px) {
-  #search-field {
-    margin-right: 4px;
-    font-size: 12px;
-    font-weight: normal;
-    font-family: 'Heebo';
-    color: rgb(33, 37, 41);
-    border: none;
-    background: none;
-    border-bottom: 2px solid rgb(33, 37, 41);
-    border-radius: 0;
-    margin-top: 1px;
-  }
-}
-
-@media (min-width: 768px) {
-  #search-field {
-    margin-right: 4px;
-    font-size: 14px;
-    font-weight: normal;
-    font-family: 'Heebo';
-    color: rgb(33, 37, 41);
-    border: none;
-    background: none;
-    border-bottom: 2px solid rgb(33, 37, 41);
-    border-radius: 0;
-    margin-top: 1px;
-  }
-}
-
-@media (min-width: 1000px) {
-  #search-field {
-    margin-right: 6px;
-    font-size: 14px;
-    font-weight: normal;
-    font-family: 'Heebo';
-    color: rgb(33, 37, 41);
-    border: none;
-    background: none;
-    border-bottom: 2px solid rgb(33, 37, 41);
-    border-radius: 0;
-    margin-top: 1px;
-  }
-}
-
-@media (min-width: 1200px) {
-  #search-field {
-    margin-right: 6px;
-    font-size: 14px;
-    font-weight: normal;
-    font-family: 'Heebo';
-    color: rgb(33, 37, 41);
-    border: none;
-    background: none;
-    border-bottom: 2px solid rgb(33, 37, 41);
-    border-radius: 0;
-    margin-top: 1px;
-  }
-}
-
-#search-icon {
-  color: black;
-}
-
-#menuicon {
-  color: rgb(255, 255, 255);
-  font-size: 22px;
-  margin: 10px;
-}
-
-#search-button {
-  margin-right: 5px;
-}
-
-@media (min-width: 300px) {
-  #search-button {
-    margin-right: 8px;
-  }
-}
-
-@media (min-width: 568px) {
-  #search-button {
-    margin-right: 5px;
-  }
-}
-
-@media (min-width: 768px) {
-  #search-button {
-    margin-right: 6px;
-  }
-}
-
-@media (min-width: 1000px) {
-  #search-button {
-    margin-right: 6px;
-  }
-}
-
-@media (min-width: 1200px) {
-  #search-button {
-    margin-right: 6px;
-  }
-}
-
-#footericon {
-  color: rgb(0, 0, 0);
-}
-
-#footericon:hover {
-  color: rgb(4, 94, 153);
-}
-
-#botmenu {
-  margin-left: 1%;
-  width: 100%;
-  padding: 8px;
-  background: rgb(255, 255, 255);
-  bottom: 0;
-  position: fixed;
-  border-top: 2px solid rgb(217, 217, 217);
-  z-index: 100;
-  text-align: center;
-  box-shadow: 0px 0px 7px rgba(33, 37, 41, 0.22);
-}
-
-@media (min-width: 300px) {
-  #botmenu {
-    margin-left: 0;
-    width: 100%;
-    padding: 9px;
-    background: rgb(255, 255, 255);
-    bottom: 0;
-    position: fixed;
-    border-top: 2px solid rgb(217, 217, 217);
-    z-index: 100;
-    text-align: center;
-    box-shadow: 0px 0px 7px rgba(33, 37, 41, 0.22);
-  }
-}
-
-@media (min-width: 568px) {
-  #botmenu {
-    margin-left: 1%;
-    width: 100%;
-    padding: 8px;
-    background: rgb(255, 255, 255);
-    bottom: 0;
-    position: fixed;
-    border-top: 2px solid rgb(217, 217, 217);
-    z-index: 100;
-    text-align: center;
-    box-shadow: 0px 0px 7px rgba(33, 37, 41, 0.22);
-  }
-}
-
-@media (min-width: 768px) {
-  #botmenu {
-    margin-left: 1%;
-    width: 100%;
-    padding: 8px;
-    background: rgb(255, 255, 255);
-    bottom: 0;
-    position: fixed;
-    border-top: 2px solid rgb(217, 217, 217);
-    z-index: 100;
-    text-align: center;
-    box-shadow: 0px 0px 7px rgba(33, 37, 41, 0.22);
-  }
-}
-
-@media (min-width: 1000px) {
-  #botmenu {
-    margin-left: 2%;
-    width: 96%;
-    padding: 8px;
-    background: rgb(255, 255, 255);
-    bottom: 0;
-    position: fixed;
-    border-top: 2px solid rgb(217, 217, 217);
-    z-index: 100;
-    text-align: center;
-    box-shadow: 0px 0px 7px rgba(33, 37, 41, 0.22);
-  }
-}
-
-@media (min-width: 1200px) {
-  #botmenu {
-    margin-left: 2%;
-    width: 96%;
-    padding: 8px;
-    background: rgb(255, 255, 255);
-    bottom: 0;
-    position: fixed;
-    border-top: 2px solid rgb(217, 217, 217);
-    z-index: 100;
-    text-align: center;
-    box-shadow: 0px 0px 7px rgba(33, 37, 41, 0.22);
-  }
-}
-
-#menu-icon {
-  font-size: 22px;
-  color: black;
-  margin-left: 10px;
-  margin-top: 4px;
-  position: absolute;
-  left: 0;
-  z-index: 10;
-}
-
-@media (min-width: 300px) {
-  #menu-icon {
-    font-size: 22px;
-    color: black;
-    margin-left: 10px;
-    margin-top: 5px;
-    position: absolute;
-    left: 0;
-    z-index: 10;
-  }
-}
-
-@media (min-width: 568px) {
-  #menu-icon {
-    font-size: 22px;
-    color: black;
-    margin-left: 10px;
-    margin-top: 5px;
-    position: absolute;
-    left: 0;
-    z-index: 10;
-  }
-}
-
-@media (min-width: 768px) {
-  #menu-icon {
-    font-size: 22px;
-    color: black;
-    margin-left: 10px;
-    margin-top: 6px;
-    position: absolute;
-    left: 0;
-    z-index: 10;
-  }
-}
-
-@media (min-width: 1000px) {
-  #menu-icon {
-    font-size: 22px;
-    color: black;
-    margin-left: 10px;
-    margin-top: 6px;
-    position: absolute;
-    left: 0;
-    z-index: 10;
-  }
-}
-
-@media (min-width: 1200px) {
-  #menu-icon {
-    font-size: 22px;
-    color: black;
-    margin-left: 10px;
-    margin-top: 6px;
-    position: absolute;
-    left: 0;
-    z-index: 10;
-  }
-}
-
-#menudiv2 {
-  width: 100%;
-  display: none;
-  background: rgb(255, 255, 255);
-  height: 95px;
-  position: fixed;
-  z-index: 3;
-  top: -1px;
-  right: 0;
-  box-shadow: 0px 2px 14px;
-}
-
-@media (min-width: 300px) {
-  #menudiv2 {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    height: 95px;
-    position: fixed;
-    z-index: 3;
-    top: -1px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-@media (min-width: 568px) {
-  #menudiv2 {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    height: 95px;
-    position: fixed;
-    z-index: 3;
-    top: -1px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-@media (min-width: 768px) {
-  #menudiv2 {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    height: 95px;
-    position: fixed;
-    z-index: 3;
-    top: -1px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-@media (min-width: 1000px) {
-  #menudiv2 {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    height: 95px;
-    position: fixed;
-    z-index: 3;
-    top: -1px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-@media (min-width: 1200px) {
-  #menudiv2 {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    height: 95px;
-    position: fixed;
-    z-index: 3;
-    top: -1px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-#searchdiv {
-  text-align: right;
-  margin-top: 10px;
-  width: 100%;
-  padding-right: 7px;
-}
-
-@media (min-width: 300px) {
-  #searchdiv {
-    text-align: right;
-    margin-top: 9px;
-    width: 100%;
-    padding-right: 7px;
-  }
-}
-
-@media (min-width: 568px) {
-  #searchdiv {
-    text-align: right;
-    margin-top: 5px;
-    width: 100%;
-    padding-right: 7px;
-  }
-}
-
-@media (min-width: 768px) {
-  #searchdiv {
-    text-align: right;
-    margin-top: 5px;
-    width: 100%;
-    padding-right: 7px;
-  }
-}
-
-@media (min-width: 1000px) {
-  #searchdiv {
-    text-align: right;
-    margin-top: 5px;
-    width: 100%;
-    padding-right: 7px;
-  }
-}
-
-@media (min-width: 1200px) {
-  #searchdiv {
-    text-align: right;
-    margin-top: 5px;
-    width: 100%;
-    padding-right: 7px;
-  }
-}
-
-#navbar {
-  width: 100%;
-  z-index: 1;
-}
-
-@media (min-width: 300px) {
-  #navbar {
-    width: 100%;
-    z-index: 1;
-  }
-}
-
-@media (min-width: 568px) {
-  #navbar {
-    width: 100%;
-    z-index: 1;
-  }
-}
-
-@media (min-width: 768px) {
-  #navbar {
-    width: 100%;
-    z-index: 1;
-  }
-}
-
-@media (min-width: 1000px) {
-  #navbar {
-    width: 100%;
-    z-index: 1;
-  }
-}
-
-@media (min-width: 1200px) {
-  #navbar {
-    width: 100%;
-    z-index: 1;
-  }
-}
-
-#navdiv {
-  width: 100%;
-  display: none;
-  background: rgb(255, 255, 255);
-  position: fixed;
-  z-index: 3;
-  top: 50px;
-  right: 0;
-  box-shadow: 0px 2px 14px;
-}
-
-@media (min-width: 300px) {
-  #navdiv {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    position: fixed;
-    z-index: 3;
-    top: 50px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-@media (min-width: 568px) {
-  #navdiv {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    position: fixed;
-    z-index: 3;
-    top: 50px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-@media (min-width: 768px) {
-  #navdiv {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    position: fixed;
-    z-index: 3;
-    top: 50px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-@media (min-width: 1000px) {
-  #navdiv {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    position: fixed;
-    z-index: 3;
-    top: 50px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-@media (min-width: 1200px) {
-  #navdiv {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    position: fixed;
-    z-index: 3;
-    top: 50px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-#navdiv2 {
-  width: 100%;
-  display: none;
-  background: rgb(255, 255, 255);
-  position: fixed;
-  z-index: 3;
-  top: 82px;
-  right: 0;
-  box-shadow: 0px 2px 14px;
-}
-
-@media (min-width: 300px) {
-  #navdiv2 {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    position: fixed;
-    z-index: 3;
-    top: 82px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-@media (min-width: 568px) {
-  #navdiv2 {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    position: fixed;
-    z-index: 3;
-    top: 82px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-@media (min-width: 768px) {
-  #navdiv2 {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    position: fixed;
-    z-index: 3;
-    top: 82px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-@media (min-width: 1000px) {
-  #navdiv2 {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    position: fixed;
-    z-index: 3;
-    top: 82px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-@media (min-width: 1200px) {
-  #navdiv2 {
-    width: 100%;
-    display: none;
-    background: rgb(255, 255, 255);
-    position: fixed;
-    z-index: 3;
-    top: 82px;
-    right: 0;
-    box-shadow: 0px 2px 14px;
-  }
-}
-
-#topright a {
-  font-family: 'Heebo';
-  text-decoration: none;
-  color: rgb(33, 37, 41);
-  padding: 5px 10px;
-  border-radius: 8px;
-  margin-left: 8px;
-}
-
-@media (min-width: 300px) {
-  #topright a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 5px 10px;
-    border-radius: 8px;
-    margin-left: 8px;
-  }
-}
-
-@media (min-width: 568px) {
-  #topright a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 5px 10px;
-    border-radius: 8px;
-    margin-left: 8px;
-  }
-}
-
-@media (min-width: 768px) {
-  #topright a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 5px 10px;
-    border-radius: 8px;
-    margin-left: 8px;
-  }
-}
-
-@media (min-width: 1000px) {
-  #topright a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 5px 10px;
-    border-radius: 8px;
-    margin-left: 8px;
-  }
-}
-
-@media (min-width: 1200px) {
-  #topright a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 5px 10px;
-    border-radius: 8px;
-    margin-left: 8px;
-  }
-}
-
-#closenav {
+#info-icon {
+  padding: 0 0px 1px 2px;
+  font-size: 25px;
   float: right;
-  margin-right: 10px;
-  font-size: 20px;
-  color: rgb(33, 37, 41);
-  margin-top: 5px;
-}
-
-#navdiv a {
-  font-family: 'Heebo';
-  text-decoration: none;
-  color: rgb(33, 37, 41);
-  padding: 15px 25px;
-  display: block;
-  transition: 0.2s;
-}
-
-@media (min-width: 300px) {
-  #navdiv a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 15px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-@media (min-width: 568px) {
-  #navdiv a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 15px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-@media (min-width: 768px) {
-  #navdiv a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 15px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-@media (min-width: 1000px) {
-  #navdiv a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 15px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-@media (min-width: 1200px) {
-  #navdiv a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 15px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-#navdiv a:hover {
-  background-color: rgb(241, 241, 241);
-}
-
-.nav-selected {
-  background-color: rgb(241, 241, 241);
-}
-
-#navdiv2 a {
-  font-family: 'Heebo';
-  text-decoration: none;
-  color: rgb(33, 37, 41);
-  padding: 10px 25px;
-  display: block;
-  transition: 0.2s;
-}
-
-@media (min-width: 300px) {
-  #navdiv2 a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 10px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-@media (min-width: 568px) {
-  #navdiv2 a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 10px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-@media (min-width: 768px) {
-  #navdiv2 a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 10px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-@media (min-width: 1000px) {
-  #navdiv2 a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 10px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-@media (min-width: 1200px) {
-  #navdiv2 a {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 10px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-#navdiv2 a:hover {
-  background-color: rgb(241, 241, 241);
-}
-
-#dropdown {
-  font-family: 'Heebo';
-  text-decoration: none;
-  color: rgb(33, 37, 41);
-  padding: 15px 25px;
-  display: block;
-  transition: 0.2s;
-}
-
-@media (min-width: 300px) {
-  #dropdown {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 15px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-@media (min-width: 568px) {
-  #dropdown {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 15px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-@media (min-width: 768px) {
-  #dropdown {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 15px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-@media (min-width: 1000px) {
-  #dropdown {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 15px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-@media (min-width: 1200px) {
-  #dropdown {
-    font-family: 'Heebo';
-    text-decoration: none;
-    color: rgb(33, 37, 41);
-    padding: 15px 25px;
-    display: block;
-    transition: 0.2s;
-  }
-}
-
-#dropdown:hover {
-  background-color: rgb(241, 241, 241);
-}
-
-.dropdown-content {
-  display: none;
+  right: 6px;
   position: absolute;
-  background-color: rgb(255, 255, 255);
-  min-width: 200px;
-  box-shadow: 0px 2px 14px;
-  z-index: 1;
 }
 
-.dropdown-content a {
-  font-family: 'Heebo';
-  text-decoration: none;
-  color: rgb(33, 37, 41);
-  padding: 12px 16px;
-  display: block;
-  transition: 0.2s;
+@media (max-width: 576px) {
+  #wa-icon {
+    padding: 0 0px 1px 0px;
+    font-size: 25px;
+    vertical-align: middle;
+  }
 }
 
-.dropdown-content a:hover {
-  background-color: rgb(241, 241, 241);
+@media (max-width: 576px) {
+  #info-icon {
+    padding: 0px 0px 1px 0px;
+    font-size: 23px;
+    vertical-align: middle;
+    margin-top: 0px;
+  }
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+#wa-button {
+  background: rgb(13,154,28);
+  font-family: Heebo, sans-serif;
+  width: 67%;
+  margin-top: 8px;
 }
 
-#topnav {
-  background-color: rgb(255, 255, 255);
-  position: fixed;
-  top: 0;
+@media (max-width: 570px) {
+  #wa-button {
+    background: rgb(13,154,28);
+    font-family: Heebo, sans-serif;
+    width: 85%;
+    position: absolute;
+    bottom: 38px;
+    right: 7%;
+  }
+}
+
+@media (min-width: 300px) {
+  #title {
+    font-size: 82%;
+    line-height: 1.1;
+  }
+}
+
+@media (min-width: 576px) {
+  #title {
+    font-size: 65%;
+    line-height: 1.1;
+  }
+}
+
+@media (min-width: 768px) {
+  #title {
+    font-size: 92%;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 450px) {
+  #cat-name {
+    font-size: 93%;
+  }
+}
+
+@media (min-width: 768px) {
+  #cat-name {
+    font-size: 82%;
+  }
+}
+
+@media (min-width: 568px) {
+  #cat-name {
+    font-size: 55%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #cat-name {
+    font-size: 79%;
+  }
+}
+
+@media (min-width: 568px) {
+  #cat-name-long {
+    color: black;
+  }
+}
+
+#wa-button-col {
+  position: absolute;
+  right: 0;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
   width: 100%;
-  box-shadow: 0px 2px 14px rgba(33, 37, 41, 0.22);
-  z-index: 2;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-#topnav a {
-  font-family: 'Heebo';
-  text-decoration: none;
-  color: black;
-  padding: 14px 16px;
-  display: inline-block;
-  transition: 0.2s;
+#link-button-col {
+  padding: 0;
 }
 
-#topnav a:hover {
-  background-color: rgb(241, 241, 241);
+.row2 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0;
+  position: absolute;
+  margin-left: 0 5px 0 5px;
+  bottom: 5px;
+  width: 100%;
+  right: 2%;
 }
 
-#topnav a.active {
-  background-color: rgb(241, 241, 241);
+#scrollicon {
+  font-size: 40px;
+  color: #ffffff;
+  opacity: 0.8;
 }
 
-#breadcrumb {
-  margin-top: 33px;
-  margin-bottom: -15px;
-  padding: 5px;
-  font-family: 'Heebo';
-  font-size: 14px;
-  background: transparent;
-  color: rgb(33, 37, 41);
+#scrollicon-div {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  height: 47px;
+  padding-top: 4px;
+}
+
+.imageicon {
+  max-width: 56%;
+  margin-top: -16px;
 }
 
 @media (min-width: 300px) {
-  #breadcrumb {
-    margin-top: 33px;
-    margin-bottom: -15px;
-    padding: 5px;
-    font-family: 'Heebo';
-    font-size: 14px;
-    background: transparent;
-    color: rgb(33, 37, 41);
+  .imageicon {
+    max-width: 56%;
+    margin-top: -7px;
   }
 }
 
-@media (min-width: 568px) {
-  #breadcrumb {
-    margin-top: 33px;
-    margin-bottom: -15px;
-    padding: 5px;
-    font-family: 'Heebo';
-    font-size: 14px;
-    background: transparent;
-    color: rgb(33, 37, 41);
+@media (min-width: 576px) {
+  .imageicon {
+    max-width: 52%;
+    margin-top: -3px;
   }
 }
 
 @media (min-width: 768px) {
-  #breadcrumb {
-    margin-top: 33px;
-    margin-bottom: -15px;
-    padding: 5px;
-    font-family: 'Heebo';
-    font-size: 14px;
-    background: transparent;
-    color: rgb(33, 37, 41);
+  .imageicon {
+    max-width: 56%;
+    margin-top: -21px;
   }
 }
 
-@media (min-width: 1000px) {
-  #breadcrumb {
-    margin-top: 33px;
-    margin-bottom: -15px;
-    padding: 5px;
-    font-family: 'Heebo';
-    font-size: 14px;
-    background: transparent;
-    color: rgb(33, 37, 41);
+@media (min-width: 900px) {
+  .imageicon {
+    max-width: 48%;
+    margin-top: -20px;
   }
 }
 
 @media (min-width: 1200px) {
-  #breadcrumb {
-    margin-top: 33px;
-    margin-bottom: -15px;
-    padding: 5px;
-    font-family: 'Heebo';
-    font-size: 14px;
-    background: transparent;
-    color: rgb(33, 37, 41);
+  .imageicon {
+    max-width: 47%;
+    margin-top: -13px;
   }
 }
 
-#backtotop {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  font-size: 14px;
-  display: none;
-  background: rgba(33, 37, 41, 0.8);
-  color: white;
-  padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
-  z-index: 100;
+#spacer {
+  height: 100px;
 }
 
-#backtotop:hover {
-  background: rgba(33, 37, 41, 1);
+#blink2 {
+  background-color: black;
+  font-weight: bold;
 }
-
-#scrollspy {
-  background-color: rgb(241, 241, 241);
-  width: 20%;
-  height: 300px;
-  position: fixed;
-  right: 1%;
-  top: 200px;
-  padding: 10px;
-  border-radius: 4px;
-  box-shadow: 0px 2px 14px rgba(33, 37, 41, 0.22);
-  display: none;
-}
-
-@media (min-width: 300px) {
-  #scrollspy {
-    background-color: rgb(241, 241, 241);
-    width: 20%;
-    height: 300px;
-    position: fixed;
-    right: 1%;
-    top: 200px;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0px 2px 14px rgba(33, 37, 41, 0.22);
-    display: none;
-  }
-}
-
-@media (min-width: 568px) {
-  #scrollspy {
-    background-color: rgb(241, 241, 241);
-    width: 20%;
-    height: 300px;
-    position: fixed;
-    right: 1%;
-    top: 200px;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0px 2px 14px rgba(33, 37, 41, 0.22);
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  #scrollspy {
-    background-color: rgb(241, 241, 241);
-    width: 20%;
-    height: 300px;
-    position: fixed;
-    right: 1%;
-    top: 200px;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0px 2px 14px rgba(33, 37, 41, 0.22);
-    display: none;
-  }
-}
-
-@media (min-width: 1000px) {
-  #scrollspy {
-    background-color: rgb(241, 241, 241);
-    width: 20%;
-    height: 300px;
-    position: fixed;
-    right: 1%;
-    top: 200px;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0px 2px 14px rgba(33, 37, 41, 0.22);
-    display: none;
-  }
-}
-
-@media (min-width: 1200px) {
-  #scrollspy {
-    background-color: rgb(241, 241, 241);
-    width: 20%;
-    height: 300px;
-    position: fixed;
-    right: 1%;
-    top: 200px;
-    padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0px 2px 14px rgba(33, 37, 41, 0.22);
-    display: none;
-  }
-}
-
-.scrollspy-section {
-  padding: 6px;
-  margin: 5px 0;
-  font-size: 14px;
-  border-radius: 4px;
-  transition: background-color 0.2s;
-  cursor: pointer;
-}
-
-.scrollspy-section:hover {
-  background-color: rgb(217, 217, 217);
-}
-
-.scrollspy-current {
-  background-color: rgb(33, 37, 41);
-  color: white;
-}
-
-/* Add your custom CSS styles below this line */
-/* --------------------------------------- */
