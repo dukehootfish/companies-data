@@ -46,14 +46,13 @@ nav a {
   width: calc(33.33% - 20px); /* Adjust as needed */
 }
 
+/* ... (previous styles) */
+
 #cat-box {
   display: flex;
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0);
-}
-
-.card {
-  border: 0;
+  position: relative;
 }
 
 .cat-card-body {
@@ -61,10 +60,14 @@ nav a {
 }
 
 #cat-name {
-  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8); /* Add background color for readability */
+  padding: 5px 10px;
   font-weight: bold;
-  margin-bottom: 10px;
   color: #333;
+  border-bottom-left-radius: 5px;
 }
 
 .imageicon {
