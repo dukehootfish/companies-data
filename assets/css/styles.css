@@ -187,7 +187,7 @@ body {
 @media (min-width: 300px) {
   #cat-box {
     float: right;
-    max-width: 70%;
+    max-width: 48%;
     min-height: 180px;
     margin: 1%;
     line-height: 1;
@@ -201,7 +201,7 @@ body {
 
 @media (min-width: 576px) {
   #cat-box {
-    max-width: 70%;
+    max-width: 31%;
     min-height: 184px;
   }
 }
@@ -214,14 +214,14 @@ body {
 
 @media (min-width: 992px) {
   #cat-box {
-    max-width: 70% !important;
+    max-width: 23% !important;
     min-height: 191px !important;
   }
 }
 
 @media (min-width: 1000px) {
   #cat-box {
-    max-width: 70% !important;
+    max-width: 45.4% !important;
     min-height: 194px !important;
   }
 }
