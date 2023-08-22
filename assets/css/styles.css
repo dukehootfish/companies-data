@@ -201,7 +201,7 @@ body {
 
 @media (min-width: 576px) {
   #cat-box {
-    max-width: 31%;
+    max-width: 70%;
     min-height: 184px;
   }
 }
@@ -214,14 +214,14 @@ body {
 
 @media (min-width: 992px) {
   #cat-box {
-    max-width: 23% !important;
+    max-width: 70% !important;
     min-height: 191px !important;
   }
 }
 
 @media (min-width: 1000px) {
   #cat-box {
-    max-width: 22.7% !important;
+    max-width: 70% !important;
     min-height: 194px !important;
   }
 }
