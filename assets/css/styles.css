@@ -243,7 +243,7 @@ body {
 @media (min-width: 300px) {
   #box {
     float: right;
-    max-width: 70%;
+    max-width: 48%;
     min-height: 232px;
     margin: 1%;
     line-height: 1;
