@@ -221,14 +221,14 @@ body {
 
 @media (min-width: 1000px) {
   #cat-box {
-    max-width: 45.4% !important;
+    max-width: 22.7% !important;
     min-height: 194px !important;
   }
 }
 
 @media (min-width: 1200px) {
   #cat-box {
-    max-width: 45.4% !important;
+    max-width: 39.725% !important;
     min-height: 224px !important;
   }
 }
