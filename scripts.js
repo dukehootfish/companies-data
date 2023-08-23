@@ -26,7 +26,7 @@ async function displayProducts() {
   const productContainer = document.getElementById('product-list');
 
   products.forEach(product => {
-    const { Name, Description, ImageUrl } = product.fields;
+    const { Name, Link, ImageUrl } = product.fields;
 
     const productCard = document.createElement('div');
     productCard.classList.add('col-md-6', 'col-lg-4');
@@ -54,7 +54,7 @@ async function displayProducts() {
     linkButton.classList.add('btn', 'btn-primary', 'btn-sm');
     linkButton.role = 'button';
     linkButton.id = 'link_button';
-    linkButton.href = 'https://dukehootfish.github.io/catalog/catalogfish.html#c3';
+    linkButton.href = Link;
     linkButton.textContent = 'לרשימת הספקים >';
 
     productCard.appendChild(cardWrapper);
