@@ -660,7 +660,6 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
   padding: 0; /* Remove any default padding */
-  list-style: none; /* Remove default list styles */
   margin: 0; /* Remove any default margin */
 }
 
