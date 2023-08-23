@@ -10,29 +10,33 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/WhatsApp-Button.css">
   <title>Your Airtable Website</title>
+  <style>
+    /* Add this style to position the footer at the bottom */
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    main {
+      flex-grow: 1;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <img src="assets/img/Screenshot_1.png" width=100%>
+    <img src="assets/img/Screenshot_1.png" width="100%">
   </header>
-<main class="container" id="product-list">
-  <body style="/*background: url(&quot;assets/img/bg-smart-factory-catalog.jpeg&quot;) repeat fixed;*/">
-      <div id="catalog">
-          <div class="row" id="cat-c1" name="1">
-              <div class="col-12">
-                  <div>
-                    
-                        <!-- Product listings will be dynamically generated here -->
-                      
-                  </div>
-              </div>
-          </div>
-      </div
+  <main class="container" id="product-list">
+    <div id="catalog">
+      <div class="row" id="cat-c1" name="1">
+        <div class="col-12">
+          <!-- Product listings will be dynamically generated here -->
+        </div>
+      </div>
+    </div>
   </main>
-
-  
   <footer>
-      <img src="assets/img/Screenshot_1.png" width=100%>
+    <img src="assets/img/Screenshot_1.png" width="100%">
   </footer>
   <script src="scripts.js"></script>
   <script src="assets/js/jquery.min.js"></script>
@@ -41,11 +45,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
   <script src="assets/js/scroll-icon.js"></script>
   <script src="assets/js/theme.js"></script>
-  <footer>
-      <img src="assets/img/Screenshot_1.png" width=100% >
-  </footer>
 </body>
-  <footer>
-      <img src="assets/img/Screenshot_1.png" width=100% >
-  </footer>
 </html>
