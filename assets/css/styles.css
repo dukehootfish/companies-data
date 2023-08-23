@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .portfolio-block {
   padding-bottom: 0;
   padding-top: 0;
@@ -658,10 +664,10 @@ body {
 #product-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start; /* Adjust this as needed */
-  margin: 0; /* Remove any default margin */
+  justify-content: flex-start;
   padding: 0; /* Remove any default padding */
   list-style: none; /* Remove default list styles */
+  margin: 0; /* Remove any default margin */
 }
 
 #cat-box {
@@ -670,8 +676,8 @@ body {
   border-width: 0px;
   transition: transform 0.2s;
   padding: 3px 3px 0 2px;
-  width: 100%; /* Stretch boxes across the screen */
-  max-width: none; /* Disable any max-width restrictions */
+  flex: 1; /* Allow boxes to flexibly take available width */
+  min-width: 0; /* Ensure flex items can shrink */
   box-sizing: border-box; /* Include padding in width */
 }
 
