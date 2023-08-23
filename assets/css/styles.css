@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .portfolio-block {
@@ -690,7 +689,7 @@ body {
 
 @media (max-width: 768px) {
   #cat-box {
-    width: 100%; /* Adjust for smaller screens */
+    min-height: 195px;
   }
 }
 
