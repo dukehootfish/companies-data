@@ -55,7 +55,7 @@ async function displayProducts() {
     linkButton.role = 'button';
     linkButton.id = 'link_button';
     linkButton.href = Link;
-    linkButton.textContent = 'לרשימת הספקים >';
+    linkButton.textContent = 'לאתר >';
 
     productCard.appendChild(cardWrapper);
     productCard.appendChild(productImage);
